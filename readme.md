@@ -101,9 +101,26 @@ $git commit -m "C1 prj-start"
 ----<><><...>---|--  (On branch master)
               35b936f
 
+
+$ git add .gitignore 
+
+----<><><...>---|------------------<> (On branch master)
+              35b936f               - .gitignore
+
+$  git commit -m "C2 add .gitignore "
+                C1                    C2
+----<><><...>---|------------------<>-|--- (On branch master)
+              35b936f                43eab06
+
+
+
+
 # Linux
 $ clear
-$ ctrl + l         (arrow up)     (tab:  autocomplete)
-$ cd /home/usuario/proyecto_git
-$ ls -l
-$ pwd
+$ ctrl + l                        (arrow up)     (tab:  autocomplete)
+$ cd /home/usuario/proyecto_git   (ingresar a los directorios)
+$ ls -l                           (listar)
+$ pwd                             (dir actual)
+$ cat                             (ver el contenido del archivo, concatenar)
+$ echo "hola" > file.txt          (crear un archivo y escribir en él)
+$ touch                           (crear el archivo)
