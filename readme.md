@@ -82,12 +82,28 @@ $ git --version
 $ git config --global user.name "pat_mic"
 $ git config --global user.email "pat_mic@hotmail.com"
 $ git init
+$ git status
+    
+----------   (On branch master)
+
+$ git add <file.ext>
 $ git add .
 
+  
+----<><><...>---  (On branch master)
+     - roadmap.excalidraw
+     - Hi.java
+     - ...
+
+$git commit -m "C1 prj-start"
+
+                C1
+----<><><...>---|--  (On branch master)
+              35b936f
 
 # Linux
 $ clear
-$ ctrl + l         (arrow up)
+$ ctrl + l         (arrow up)     (tab:  autocomplete)
 $ cd /home/usuario/proyecto_git
 $ ls -l
 $ pwd
