@@ -74,7 +74,10 @@ este es codigo json
 }
 ```
 
-# GIT & Linux
+    date : 13.nov
+# Quita clase
+
+## GIT & Linux
 
 Comandos para el uso del GIT
 
@@ -108,9 +111,20 @@ $ git add .gitignore
               35b936f               - .gitignore
 
 $  git commit -m "C2 add .gitignore "
-                C1                    C2
-----<><><...>---|------------------<>-|--- (On branch master)
+                C1                    C2                C5
+----<><><...>---|------------------<>-|---   ....   --- | (On branch master) 
               35b936f                43eab06
+
+$ git rm read.pdf           (borrar archivo de la rama)
+
+
+                 
+----<><><...>---|---            (main) ----<  (req / fix)
+                |
+                |
+                |----<><><...>- *(Config)    
+
+
 
 
 
