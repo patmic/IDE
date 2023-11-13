@@ -132,14 +132,25 @@ $ git rm read.pdf           (borrar archivo de la rama)
 
 
 # Linux
+
 $ clear
+
 $ ctrl + l                        (arrow up)     (tab:  autocomplete)
+
 $ cd /home/usuario/proyecto_git   (ingresar a los directorios)
+
 $ ls -l                           (listar)
+
 $ pwd                             (dir actual)
+
 $ cat                             (ver el contenido del archivo, concatenar)
+
 $ echo "hola" > file.txt          (crear un archivo y escribir en él)
+
 $ touch                           (crear el archivo)
+
 $ cp                              (COPIAR )
+
 $ mv                              (renombrar o mover)
+
 $ mkdir                           (crear carpeta)
