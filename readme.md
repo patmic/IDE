@@ -116,14 +116,16 @@ $  git commit -m "C2 add .gitignore "
               35b936f                43eab06
 
 $ git rm read.pdf           (borrar archivo de la rama)
+      
 
 
-                 
-----<><><...>---|---            (main) ----<  (req / fix)
-                |
-                |
-                |----<><><...>- *(Config)    
+## branch + merge
 
+----<><><...>---|---                  (main) ----<  (req / fix)
+                |                        ^
+                |             C1...      |
+                |----<><><...>-|--    ...| *(Config)    
+                               93fa79b
 
 
 
